@@ -1,28 +1,27 @@
 # Helfy
 
+The page includes:
+- A header section with a moving info marquee
+- A hero section with ratings and a call-to-action button
+- A cards area that slides left and right using arrow buttons in `app.js`
 
-გვერდი მოიცავს:
-- სათაურის (header) სექციას მოძრავი ინფო-ზოლით (marquee)
-- Hero სექციას რეიტინგითა და მოქმედების ღილაკით
-- ბარათების არეს (cards area), რომელიც სრიალდება მარცხენა/მარჯვენა ისრების ღილაკებით (`app.js`)
-
-## პროექტის სტრუქტურა
+## Project structure
 
 ```
-index.html   — გვერდის მთავარი HTML მარკაპი
-style.css    — სტილები
-app.js       — ბარათების სლაიდერის ლოგიკა (ისრებზე დაჭერით გადაადგილება)
-assets/      — სურათები და აიქონები
-fonts/       — გამოყენებული ფონტები
+index.html   — main HTML markup of the page
+style.css    — styles
+app.js       — card slider logic (navigation via arrow buttons)
+assets/      — images and icons
+fonts/       — used fonts
 ```
 
-## როგორ გავხსნათ ლოკალურად
+## How to open locally
 
+1. Install the VS Code extension **Live Server**.
+2. Open this folder in VS Code.
+3. Right-click on `index.html` and select **"Open with Live Server"**.
+4. The page will open at approximately `http://127.0.0.1:5500`.
 
-1. დააინსტალირეთ VS Code გაფართოება **Live Server**.
-2. გახსენით ეს ფოლდერი VS Code-ში.
-3. დააჭირეთ მარჯვენა ღილაკს `index.html`-ზე და აირჩიეთ **"Open with Live Server"**.
-4. გვერდი გაიხსნება მისამართზე, დაახლოებით `http://127.0.0.1:5500`.
+Then open it in the browser: `http://localhost:5500`
 
-
-შემდეგ გახსენით ბრაუზერში: `http://localhost:8000`
+You Can Also Check hosted project on  `https://helfy-tau.vercel.app/`
